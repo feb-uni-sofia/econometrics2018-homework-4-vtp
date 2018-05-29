@@ -5,4 +5,4 @@ jobs:
       - image: rocker/tidyverse
     steps:
       - checkout
-- run: find -type f -name '*.R' -print0 | xargs -0 -n1 R -f
+      - run: find -type f -name '*.R' -print0 | xargs -0 -n1 R -f
