@@ -7,10 +7,13 @@ fit <- lm(C ~ HS, data = crime)
 summary(fit)
 
 ## b)
-  
+## /score -2  
 ## c)
 fit1 <- lm(C ~ HS + U, data = crime)
 summary(fit1)
+
+## The question asked about an explanation and you
+## only provide a verbal description of the estimated model..
 
 ## Tested apart from the other factors, HS has a positive contribution to
 ## the crime rate, but when we add percent of urban, the relationship between
@@ -22,3 +25,5 @@ summary(fit1)
 ## and the positive contribution from (1) includes the urban influence.
 
 ## e)
+
+## /score -5
